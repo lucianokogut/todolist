@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/health-check")
-// http://localhost:8080/-------
+// http://localhost:8080/health-check/
 public class HealthCheckController {
     @GetMapping("/")
     public ResponseEntity<Object> getRetornoEntity() {
