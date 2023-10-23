@@ -30,16 +30,16 @@ public class MinhaPrimeiraController {
     @GetMapping("/data-mock")
     public ResponseEntity<Object> getData() {
         Map<String, String> data = new HashMap<>();
-        data.put("campoID", "1");
-        data.put("descricao", "Descrição do campo 1");
-        data.put("campoID", "2");
-        data.put("descrição", "Descrição do campo 2");
+        data.put("campo-1", "1");
+        data.put("descricao-1", "Descrição do campo 1");
+        data.put("campo-2", "2");
+        data.put("descrição-2", "Descrição do campo 2");
         return new ResponseEntity<>(data, HttpStatus.OK);
     }
 
     @GetMapping("/data-string")
     public String dataString() {
-        return "campoID: 1, descricao: Descrição do campo 1; campoID: 2, descricao: Descrição do campo 2";
+        return "campo-1: 1, descricao-1: Descrição do campo 1; campo-2: 2, descricao-2: Descrição do campo 2";
     }
-    
+
 }
