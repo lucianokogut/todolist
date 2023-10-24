@@ -38,6 +38,6 @@ public class UserController {
      */
     @PostMapping("/")
     public void create(@RequestBody UserModel userModel) {
-        System.out.println(userModel.getName());
+        System.out.println("Request de Usuário recebido!\n" + "Response do Usuário: " + userModel.getName());
     }
 }
