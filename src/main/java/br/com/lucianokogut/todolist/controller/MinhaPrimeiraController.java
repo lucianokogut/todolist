@@ -14,16 +14,18 @@ import org.springframework.web.bind.annotation.RestController;
 // http://localhost:8080/-------
 public class MinhaPrimeiraController {
 
-    /** Métodos de acesso do HTTP (verbos de ação a cada request / response)
+    /**
+     * Métodos de acesso do HTTP (verbos de ação a cada request / response)
      * GET - Buscar uma informação
      * POST - Adicionar um dado ou informação
      * PUT - Alterar um dado ou informação
      * DELETE - Remover um dado ou informação
      * PATCH - Alterar somente parte de um dado ou informação
+     * 
+     * Método (funcionalidade) de uma classe
      */
-    // Método (funcionalidade) de uma classe
     @GetMapping("/primeiro-metodo")
-     public String primeiraMensagem() {
+    public String primeiraMensagem() {
         return "Funcionou";
     }
 
