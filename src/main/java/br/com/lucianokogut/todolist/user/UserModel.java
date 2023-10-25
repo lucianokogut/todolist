@@ -1,13 +1,26 @@
 package br.com.lucianokogut.todolist.user;
 
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
+@Entity(name = "tb_users")
 public class UserModel {
+
+    @Id
+    @GeneratedValue(generator = "UUID")
+    private UUID id;
 
     private String username;
     private String name;
     private String password;
+
+    private LocalDateTime createdAt;
 
     /**
      * Métodos para Get e Set (getters e setters)
