@@ -3,6 +3,7 @@ package br.com.lucianokogut.todolist;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.http.HttpStatus;
 //import org.springframework.http.HttpStatus;
 //import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,7 +28,7 @@ public class HealthCheckController {
         Map<String, Object> healthMap = new HashMap<>();
         healthMap.put("resource", "apiToDoList");
         healthMap.put("status", "UP");
-        healthMap.put("statusCode", "200");
+        healthMap.put("statusCode", HttpStatus.OK);
         System.out.println("Request de Status solicitado...");
         return healthMap;
     }
