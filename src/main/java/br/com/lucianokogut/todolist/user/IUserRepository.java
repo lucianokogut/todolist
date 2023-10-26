@@ -4,6 +4,9 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
+/**
+ * Criado a classe de inreface que servirá de repositório padrão com os atributos da classe principal
+ */
 public interface IUserRepository extends JpaRepository<UserModel, UUID>{
     
     
