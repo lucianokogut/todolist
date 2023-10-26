@@ -1,5 +1,6 @@
 package br.com.lucianokogut.todolist.user;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/users")
 public class UserController {
 
+    @Autowired
+    private IUserRepository userRepository;
     /**
      * Tipos dos métodos e seus retornos:
      * String (texto) - Permite uso de frases
@@ -37,7 +40,11 @@ public class UserController {
      * @param userModel pelo body da requisição
      */
     @PostMapping("/")
-    public void create(@RequestBody UserModel userModel) {
-        System.out.println("Request de Usuário recebido!\n" + "Response do Usuário: " + userModel.getName());
+    public UserModel create(@RequestBody UserModel userModel) {
+        System.out.println("Request do Usuário " + userModel.getName() + " recebido!");
+        var userCreated = this.userRepository.save(userModel);
+        System.out.println("Usuário " + userModel.getName() + " criado no BD...");
+        System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getId());
+        return userCreated;
     }
 }
