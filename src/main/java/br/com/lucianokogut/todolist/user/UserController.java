@@ -39,6 +39,12 @@ public class UserController {
      * 
      * @param userModel pelo body da requisição
      */
+    /**
+     * Ajustado a classe de modelo do usuário para que atuem como uma interface
+     * Ajustado logs via sysout para listar requisições e respostas
+     * @param userModel
+     * @return
+     */
     @PostMapping("/")
     public UserModel create(@RequestBody UserModel userModel) {
         System.out.println("Request do Usuário " + userModel.getName() + " recebido!");
