@@ -1,6 +1,8 @@
 package br.com.lucianokogut.todolist.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -46,19 +48,21 @@ public class UserController {
      * @return
      */
     @PostMapping("/")
-    public UserModel create(@RequestBody UserModel userModel) {
+    public ResponseEntity create(@RequestBody UserModel userModel) {
         var user = this.userRepository.findByUsername(userModel.getUsername());
        
         if (user != null){
-            System.out.println("Request do Usuário " + user.getName() + " recebido, mas...");
-            System.out.println("Usuário " + user.getName() + " com Username " + user.getUsername() + " já está cadastrado... Verifique!");
-            return null;
+            var retorno = "Request do Usuário " + user.getName() + " recebido, mas...";
+            retorno = retorno + "\n" + "Usuário " + user.getName() + " com Username " + user.getUsername() + " já está cadastrado... Verifique!";
+            System.out.println(retorno);
+            //System.out.println("Usuário " + user.getName() + " com Username " + user.getUsername() + " já está cadastrado... Verifique!");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(retorno);
         } else {
             System.out.println("Request do Usuário " +  userModel.getName() + " recebido!");
             var userCreated = this.userRepository.save(userModel);
             System.out.println("Usuário " + userModel.getName() + " criado no BD...");
             System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getUsername() + " - " + userModel.getId());
-            return userCreated;
+            return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
         }
     }
 }
