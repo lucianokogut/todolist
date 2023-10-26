@@ -50,14 +50,14 @@ public class UserController {
         var user = this.userRepository.findByUsername(userModel.getUsername());
        
         if (user != null){
-            System.out.println("Request do Usuário " + user + " recebido, mas...");
-            System.out.println("Usuário " + user + " já está cadastrado... Verifique!");
+            System.out.println("Request do Usuário " + user.getName() + " recebido, mas...");
+            System.out.println("Usuário " + user.getName() + " com Username " + user.getUsername() + " já está cadastrado... Verifique!");
             return null;
         } else {
-            System.out.println("Request do Usuário " + userModel.getName() + " recebido!");
+            System.out.println("Request do Usuário " +  userModel.getName() + " recebido!");
             var userCreated = this.userRepository.save(userModel);
             System.out.println("Usuário " + userModel.getName() + " criado no BD...");
-            System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getId());
+            System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getUsername() + " - " + userModel.getId());
             return userCreated;
         }
     }
