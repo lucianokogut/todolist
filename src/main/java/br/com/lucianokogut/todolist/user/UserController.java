@@ -47,10 +47,18 @@ public class UserController {
      */
     @PostMapping("/")
     public UserModel create(@RequestBody UserModel userModel) {
-        System.out.println("Request do Usuário " + userModel.getName() + " recebido!");
-        var userCreated = this.userRepository.save(userModel);
-        System.out.println("Usuário " + userModel.getName() + " criado no BD...");
-        System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getId());
-        return userCreated;
+        var user = this.userRepository.findByUsername(userModel.getUsername());
+       
+        if (user != null){
+            System.out.println("Request do Usuário " + user + " recebido, mas...");
+            System.out.println("Usuário " + user + " já está cadastrado... Verifique!");
+            return null;
+        } else {
+            System.out.println("Request do Usuário " + userModel.getName() + " recebido!");
+            var userCreated = this.userRepository.save(userModel);
+            System.out.println("Usuário " + userModel.getName() + " criado no BD...");
+            System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getId());
+            return userCreated;
+        }
     }
 }
