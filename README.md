@@ -72,7 +72,7 @@ O commit contém os seguintes elementos estruturais, para comunicar a intenção
 
 `break:` (Breaking Change): um commit que contém o texto `break` ou `BREAKING CHANGE`, no começo do texto do corpo opcional ou do rodapé opcional, inclui uma modificação que quebra a compatibilidade da API (isso se correlaciona com o versionamento semântico na hieraquia MAJOR). Uma *BREAKING CHANGE* pode fazer parte de commits de qualquer tipo.
 
-`others:` são tipos de commit's adicionais para transparecer as ações realizadas além dos commit's essenciais fix:, feat: e refact:, sendo que novos tipos de commit's podem ser especificados, a exemplo do @commitlint/config-conventional (baseado na Convenção do Angular) recomenda-se, chore:, style:, perf:, test:, entre outros.
+`others:` são tipos de commit's adicionais para transparecer as ações realizadas além dos commit's essenciais fix:, feat: e refact:, sendo que novos tipos de commit's podem ser especificados, a exemplo do @commitlint/config-conventional (baseado na Convenção do Angular) recomenda-se, `chore:`, `style:`, `perf:`, `test:`, entre outros.
 
 - [Visão Geral](#-índice)
 ---
