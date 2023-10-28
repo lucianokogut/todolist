@@ -63,10 +63,15 @@ Os guias de utilização trazem ilustrações das telas, o passo-a-passo a ser s
 O commit contém os seguintes elementos estruturais, para comunicar a intenção ao utilizador da sua biblioteca:
 
 `docs:` um commit do tipo docs atualiza algum tipo de documentação ou implementa parte de uma documentação inexistente anteriormente.
+
 `fix:` um commit do tipo fix soluciona um problema na sua base de código (isso se correlaciona com PATCH do versionamento semântico).
+
 `feat:` um commit do tipo feat inclui um novo recurso na sua base de código (isso se correlaciona com MINOR do versionamento semântico).
-`refact:` um commit do tipo refact ajusta parte de um código ou parte da regra de negócio, que não estava evidente o suficiente na base de código original 
+
+`refact:` um commit do tipo refact ajusta parte de um código ou parte da regra de negócio, que não estava evidente o suficiente na base de código original.
+
 `break:` (Breaking Change): um commit que contém o texto `break` ou `BREAKING CHANGE`, no começo do texto do corpo opcional ou do rodapé opcional, inclui uma modificação que quebra a compatibilidade da API (isso se correlaciona com o versionamento semântico na hieraquia MAJOR). Uma *BREAKING CHANGE* pode fazer parte de commits de qualquer tipo.
+
 `others:` são tipos de commit's adicionais para transparecer as ações realizadas além dos commit's essenciais fix:, feat: e refact:, sendo que novos tipos de commit's podem ser especificados, a exemplo do @commitlint/config-conventional (baseado na Convenção do Angular) recomenda-se, chore:, style:, perf:, test:, entre outros.
 
 - [Visão Geral](#-índice)
