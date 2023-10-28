@@ -44,4 +44,9 @@ public class MinhaPrimeiraController {
         return "campo-1: 1, descricao-1: Descrição do campo 1; campo-2: 2, descricao-2: Descrição do campo 2";
     }
 
+    @GetMapping("/about")
+    public String mensagemAbout() {
+        return "Esta é a mensagem da área 'Sobre' que todo sistema deveria ter...";
+    }
+
 }
