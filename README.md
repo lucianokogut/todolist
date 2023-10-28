@@ -21,6 +21,7 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 
 Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Rocketseat durante o período de pré-venda do curso Java do Zero ao Avançado, desenvolvendo sua jornada de aprendizado contínuo em programação. Caso necessite de mais informações e referências do projeto, acesse o material disponível pela [Rocketseat One](https://www.rocketseat.com.br/one).
 
+- [Visão Geral](#-índice)
 ---
 
 ## 🛠 Tecnologias Utilizadas
@@ -31,6 +32,9 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 * Spring Boot for Maven
 * Hierarquia de Package
 
+- [Visão Geral](#-índice)
+---
+
 ## 🗄️ Documentação de Referência
 
 Para consultas e referências, considere observar a documentação original como nas seções abaixo:
@@ -40,6 +44,9 @@ Para consultas e referências, considere observar a documentação original como
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.4/maven-plugin/reference/html/#build-image)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.4/reference/htmlsingle/index.html#web)
 
+- [Visão Geral](#-índice)
+---
+
 ## 📫 Guias de Consulta
 
 Os guias de utilização trazem ilustrações das telas, o passo-a-passo a ser seguido e as funcionalidades disponíveis em cada uma das tecnologias utilizadas:
@@ -47,6 +54,9 @@ Os guias de utilização trazem ilustrações das telas, o passo-a-passo a ser s
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+
+- [Visão Geral](#-índice)
+---
 
 ## 📤 Padrões de Commit
 
@@ -58,6 +68,9 @@ O commit contém os seguintes elementos estruturais, para comunicar a intenção
 `refact:` um commit do tipo refact ajusta parte de um código ou parte da regra de negócio, que não estava evidente o suficiente na base de código original 
 `break:` (Breaking Change): um commit que contém o texto `break` ou `BREAKING CHANGE`, no começo do texto do corpo opcional ou do rodapé opcional, inclui uma modificação que quebra a compatibilidade da API (isso se correlaciona com o versionamento semântico na hieraquia MAJOR). Uma *BREAKING CHANGE* pode fazer parte de commits de qualquer tipo.
 `others:` são tipos de commit's adicionais para transparecer as ações realizadas além dos commit's essenciais fix:, feat: e refact:, sendo que novos tipos de commit's podem ser especificados, a exemplo do @commitlint/config-conventional (baseado na Convenção do Angular) recomenda-se, chore:, style:, perf:, test:, entre outros.
+
+- [Visão Geral](#-índice)
+---
 
 ## 🛠 Blá blá blá
 
@@ -82,6 +95,7 @@ No exemplo abaixo, uma aplicação de bli bli bli está segmentada em xyz compon
 
 Estas desvantagens podem ser contornadas com o uso de bibliotecas como [Redux](https://redux.js.org/) ou [MobX](https://mobx.js.org/README.html), mas é essencial **seguir as definições de contratos estipulados pela aplicação Blá blá blá com o XPTO**.
 
+- [Visão Geral](#-índice)
 ---
 
 ## ❓ FAQ
@@ -96,6 +110,7 @@ Estas desvantagens podem ser contornadas com o uso de bibliotecas como [Redux](h
 
 **R:** Recomenda-se a leitura da documentação do TCC do Sidnei Manoel, especialmente a seção de Agradecimentos [aqui](https://repositorio.ufsc.br/bitstream/handle/123456789/109201/CCN0037-M.pdf). O canal do [JocaPadoca](https://www.youtube.com/watch?v=Yge8tZ3G_9E) no YouTube é outra ótima fonte, além do GitHub do [Padoca](https://github.com/azureash/Padoca_POO2) que possui um [repo Android](https://github.com/azureash/android) com muitos exemplos de Code Fragment.
 
+- [Visão Geral](#-índice)
 ---
 
 ## 🥱 Pré-requisitos
@@ -174,6 +189,7 @@ Este projeto deve possuir força e robustez o suficiente para manter o Design Sy
 
 Para mais informações sobre a Padaria Virtual, acesse a [documentação](https://repositorio.ufsc.br/bitstream/handle/123456789/109201/CCN0037-M.pdf).
 
+- [Visão Geral](#-índice)
 ---
 
 ## 🚀 First Steps
@@ -223,6 +239,8 @@ Agora é necessário alterar as informações do PadocaVirtualApp no arquivo `pa
 git remote remove origin
 git remote add origin <SEU_REPOSITORIO>
 ```
+- [Visão Geral](#-índice)
+---
 
 ## ⤵️ Deploy da Coisa Toda
 
@@ -236,6 +254,9 @@ O comando acima vai deixar tudo preparado no diretório `dist` para "largar o ba
 
 ---
 
+- [Visão Geral](#-índice)
+---
+
 ## 🤝 Contribuição
 
 Estamos dispostos a escutar suas contribuições e receber sua colaboração! Se você encontrar algum problema, algum dilema em alguma rotina já idealizada, ou se quiser recomendar alguma funcionalidade nova, sinta-se à vontade para criar um Pull Request.
@@ -244,4 +265,6 @@ Qualquer dúvida, entre em contato conosco.
 
 [Joaquim](acredito_no_noel@outlook.com.br)
 [Manoel](seu_marido@outlook.com)
+
+- [Visão Geral](#-índice)
 ---
