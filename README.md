@@ -10,7 +10,7 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 - [Guias de Consulta](#-guias-de-consulta)
 - [Padrões de Commit](#-padrões-de-commit)
 - [FAQ](#-faq)
-- [Pré-requisitos](#-pré-requisitos)
+- [Pré-requisitos](#pré-requisitos)
 - [Primeiros Passos](#-first-steps)
 - [Deploy da Coisa Toda](#-deploy-da-coisa-toda)
 - [Contribuição](#-contribuição)
