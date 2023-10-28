@@ -6,13 +6,13 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 
 - [Visão Geral](#-índice)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Documentação de Referência](#-documents-references)
+- [Documentação de Referência](#documents-references)
 - [Guias de Consulta](#-guias-de-consulta)
 - [Padrões de Commit](#-padrões-de-commit)
 - [FAQ](#-faq)
 - [Pré-requisitos](#-pré-requisitos)
 - [Primeiros Passos](#-first-steps)
-- [Deploy da Coisa Toda](#-deploy-da-coisa-toda)
+- [Deploy da Coisa Toda](#deploy-da-coisa-toda)
 - [Contribuição](#-contribuição)
 
 ---
@@ -35,7 +35,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 - [Visão Geral](#-índice)
 ---
 
-## 🗃️ Documents References
+## Documents References
 
 Para consultas e referências, considere observar a documentação original como nas seções abaixo:
 
@@ -247,7 +247,7 @@ git remote add origin <SEU_REPOSITORIO>
 - [Visão Geral](#-índice)
 ---
 
-## ⤵️ Deploy da Coisa Toda
+## Deploy da Coisa Toda
 
 Por se tratar de um Projeto React, o deploy de toda a aplicação é feita de forma simplificada, bastando "largar" o comando:
 
