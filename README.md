@@ -222,7 +222,7 @@ git remote remove origin
 git remote add origin <SEU_REPOSITORIO>
 ```
 
-## Deploy da Coisa Toda
+## ⤵️ Deploy da Coisa Toda
 
 Por se tratar de um Projeto React, o deploy de toda a aplicação é feita de forma simplificada, bastando "largar" o comando:
 
