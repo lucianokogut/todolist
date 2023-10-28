@@ -11,9 +11,9 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 - [Padrões de Commit](#-padrões-de-commit)
 - [FAQ](#-faq)
 - [Pré-requisitos](#-pré-requisitos)
-- [Primeiros Passos](#-primeiros-passos)
-- [Deploy](#-deploy)
-- [Contribuição](#contribuição)
+- [Primeiros Passos](#-first-steps)
+- [Deploy](#-deploy-da-coisa-toda)
+- [Contribuição](#-contribuição)
 
 ---
 
