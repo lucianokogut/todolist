@@ -6,7 +6,7 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 
 - [Visão Geral](#-índice)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Documentação de Referência]( # -documentação-de-referência)
+- [Documentação de Referência](#-documentação-de-referência)
 - [Guias de Consulta](#-guias-de-consulta)
 - [Padrões de Commit](#-padrões-de-commit)
 - [FAQ](#-faq)
