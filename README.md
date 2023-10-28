@@ -257,8 +257,6 @@ npm run build
 
 O comando acima vai deixar tudo preparado no diretório `dist` para "largar o barro" o mais rápido possível e conforme a necessidade de cada deploy.
 
----
-
 - [Visão Geral](#-índice)
 ---
 
@@ -269,6 +267,7 @@ Estamos dispostos a escutar suas contribuições e receber sua colaboração! Se
 Qualquer dúvida, entre em contato conosco.
 
 [Joaquim](acredito_no_noel@outlook.com.br)
+
 [Manoel](seu_marido@outlook.com)
 
 - [Visão Geral](#-índice)
