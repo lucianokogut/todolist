@@ -1,0 +1,233 @@
+[33mcommit a39d19a8e199ea77a57dec1ef18d83e8dca7d339[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 02:02:44 2023 -0300
+
+    docs: ajustado link e ícone do item de pré-requisito
+
+[33mcommit f9a8b2ef5725125ba7e315ec18969fceac9b3016[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 02:00:15 2023 -0300
+
+    docs: ajustado link e ícone do item de deploy
+
+[33mcommit 438918cd9e37f9c2a351b81e7d67e94a290f184a[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 01:57:08 2023 -0300
+
+    docs: ajustando link da referência que estava quebrada
+
+[33mcommit efa5bab1e9abed7b958f536b5822199c28aed3a3[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 01:56:21 2023 -0300
+
+    docs: atualizado link da documentação de referência
+
+[33mcommit 161d104d818daa68c6d390deac0d75f1a9a59b98[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 01:51:15 2023 -0300
+
+    docs: ajustado índices e links de acesso aos sub-itens
+
+[33mcommit e47f54768f9c0c979944dd3ae23eebf0f092991d[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 01:44:26 2023 -0300
+
+    docs: atualizado o arquivo básico de documentação
+
+[33mcommit cfa4831531213de1bf93c3217a177a09b832f40b[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Sat Oct 28 00:00:17 2023 -0300
+
+    docs: adicionado padrões de Conventional Commit
+
+[33mcommit 8d72e5288434091403c8835784c73ee5748c713d[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Fri Oct 27 23:55:37 2023 -0300
+
+    feat: implementado rota para retorno de informações 'Sobre'
+
+[33mcommit cdaba20efbed8984b3aee3ee97b4352fd02c8488[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Fri Oct 27 23:52:05 2023 -0300
+
+    feat: implementado rotina de criptografia da senha
+
+[33mcommit 4ee744a3f185a9c9ad0866dadc6bfb0ee785f4d5[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Fri Oct 27 23:42:04 2023 -0300
+
+    feat: adicionado dependência para criptografia da senha
+
+[33mcommit 857145fcbdec4f3699f73cc2c76597ab8c83bf70[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 14:16:33 2023 -0300
+
+    refact: atualizado a versão do spring boot starter
+
+[33mcommit 0a348d45fd64a1f251cca861e29812391f0333e8[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:53:04 2023 -0300
+
+    refact: ajustado status code padrão para health check
+
+[33mcommit 252be62f22bf57cbd6026e39ab1e1d01ed1e9aa7[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:50:07 2023 -0300
+
+    feat: implementado ResponseEntity com status code
+
+[33mcommit f4bd08ac8d3c0ee860eec65147bdade36b9d3511[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:26:43 2023 -0300
+
+    refact: ajustado mensagens de retorno da criação do usuário
+
+[33mcommit d385321868eeabb99dd87f03f41da26ba48abf72[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:14:28 2023 -0300
+
+    feat: implementado verificação do usuário por username
+
+[33mcommit 7501fadcc6a0b1611d792bb4c33b2733ef6271be[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:12:38 2023 -0300
+
+    refact: ajustado atributo de username como chave primária
+
+[33mcommit e640807e3d9d8516d774752678620ef0c840ac9e[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 12:11:27 2023 -0300
+
+    feat: implementado método de procura por username
+
+[33mcommit 805cf5e0385a883096b8317318af05ae6ae145bd[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 01:55:36 2023 -0300
+
+    docs: incluído comentários para documentação
+
+[33mcommit a585ebfc2b718ea970b6e54fc91b61e9bad31f9b[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 01:54:50 2023 -0300
+
+    refact: incluído comentários para documentação
+
+[33mcommit 3a6e4b889b36c53a591b9e89762ac1490dd939f1[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 26 01:43:15 2023 -0300
+
+    refact: alterado a referência do annotation do registro
+
+[33mcommit 525e79964de3e6bb5ef20864b538d3016e3d10fd[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Wed Oct 25 00:29:07 2023 -0300
+
+    feat: adicionado mapeamento de entidades via annotation
+    - incluído tabela de Usuários (tb_users)
+    - incluído referência de ID para chave primária, gerando UUID automático
+    - incluído referência para atributo de data e hora de criação do registro
+
+[33mcommit fdf5eccc1c0e9fd97f7ee00e8fa2136fccc5fdf6[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Wed Oct 25 00:26:12 2023 -0300
+
+    feat: adicionado propriedades do Spring
+    - incluído referência de URL, Driver, Username e Password do Datasource
+    - inluído referência JPA Platform do Database
+    - incluído referência do Console H2
+
+[33mcommit fa447c429db411c4a01afa74bd1297780c897001[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Wed Oct 25 00:21:15 2023 -0300
+
+    feat: inclusão das dependências do JPA com H2
+
+[33mcommit 175dd1545468eecdbff6f83eadcde5d527220701[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 23:49:07 2023 -0300
+
+    refact: alterando os get e set via lib do lombok
+
+[33mcommit 0fec74c8204077e31554f43f08e76e451849e9c2[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 18:13:36 2023 -0300
+
+    refact: melhorado mensagens de request e response
+
+[33mcommit 57ac5d994c0243f91b66a8e30877cec51f4ebde6[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:43:40 2023 -0300
+
+    refact: alterado método create como referencia do get
+
+[33mcommit a462e36a10f869c2bc67c0682c5242e7af5c50bb[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:42:35 2023 -0300
+
+    feat: criado métodos getters e setters do UserModel
+
+[33mcommit 3b4bb1b39286c67ab1227ae440d8e49803f4bb55[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:21:16 2023 -0300
+
+    refact: removido diretório controller e health check mantido nele
+
+[33mcommit 7bf227c07d62de326585489ed175f830fd67d50b[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:20:06 2023 -0300
+
+    feat: criado classe para return de user e sua controller
+
+[33mcommit 451a2e8310b24dfabf9117b0b26a613c3c3c7e7d[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:17:39 2023 -0300
+
+    docs: alterado comentários para documentação
+
+[33mcommit 265379a7766a8ccd523b8435698ce851425d75d6[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Tue Oct 24 01:13:59 2023 -0300
+
+    refact: alterado diretorio da classe e ajustado return do health check
+
+[33mcommit 9cdb18a857828e4afbb2957642dd8c67c3514ccc[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Mon Oct 23 16:29:40 2023 -0300
+
+    refact: ajustado atributos do JSON no data-mock
+
+[33mcommit 1d286b4a03f8c3a7549eb545446f62c04882353a[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Mon Oct 23 16:28:03 2023 -0300
+
+    feat: implementado retorn health check via JSON
+
+[33mcommit dae785644d5b6997eb601387d03b0be156893c4a[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 19 13:00:58 2023 -0300
+
+    refact: ajustado comentário do health check
+
+[33mcommit 50c2170f5e0623a4eb24a3a2bdfccacbe7ad3eee[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 19 12:57:05 2023 -0300
+
+    refact: ajustado retornos dos endpoints mockados
+
+[33mcommit e2f927061d88cc085aa9402106f23e58f7223691[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 19 12:53:12 2023 -0300
+
+    feat: implementado endpoint de health check
+
+[33mcommit a257c77365944a068b0c479e54aaa41a2c19d52f[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 19 02:52:55 2023 -0300
+
+    docs: desenvolvimento do README inicial do projeto
+
+[33mcommit 483aa72774a187526a5e4f8d763f4562a9ab1aad[m
+Author: Luciano Kogut <ljkogut@hotmail.com>
+Date:   Thu Oct 19 02:37:08 2023 -0300
+
+    feat: desenvolvimento inicial da primeira rota
