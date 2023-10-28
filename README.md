@@ -39,7 +39,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 
 Para consultas e referências, considere observar a documentação original como nas seções abaixo:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Official Apache Maven Documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.4/maven-plugin/reference/html/)
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.4/maven-plugin/reference/html/#build-image)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.4/reference/htmlsingle/index.html#web)
@@ -77,7 +77,7 @@ O commit contém os seguintes elementos estruturais, para comunicar a intenção
 - [Visão Geral](#-índice)
 ---
 
-## 🛠 Blá blá blá
+## 🦜 Blá blá blá
 
 **Questions 1?**
 
