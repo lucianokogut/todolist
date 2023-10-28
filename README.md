@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 * Spring Boot for Maven
 * Hierarquia de Package
 
-## 🗃️ Documentação de Referência
+## 🗄️ Documentação de Referência
 
 Para consultas e referências, considere observar a documentação original como nas seções abaixo:
 
