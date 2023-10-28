@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
+
 /**
  * Modificadores das classes podem ser:
  * public - Permite o acesso a qualquer método, atributo ou recursos da classe
@@ -58,10 +60,17 @@ public class UserController {
             //System.out.println("Usuário " + user.getName() + " com Username " + user.getUsername() + " já está cadastrado... Verifique!");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(retorno);
         } else {
+            var passwordHash = BCrypt.withDefaults().
+            hashToString(12, userModel.getPassword().toCharArray());
+
+            userModel.setPassword(passwordHash);
             System.out.println("Request do Usuário " +  userModel.getName() + " recebido!");
+            
             var userCreated = this.userRepository.save(userModel);
+            
             System.out.println("Usuário " + userModel.getName() + " criado no BD...");
             System.out.println("Response do Usuário: " + userModel.getName() + " - " + userModel.getUsername() + " - " + userModel.getId());
+            
             return ResponseEntity.status(HttpStatus.CREATED).body(userCreated);
         }
     }
