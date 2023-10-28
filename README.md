@@ -6,7 +6,7 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 
 - [Visão Geral](#-índice)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Documentação de Referência](#documents-references)
+- [Documentação de Referência](#-documents-references)
 - [Guias de Consulta](#-guias-de-consulta)
 - [Padrões de Commit](#-padrões-de-commit)
 - [FAQ](#-faq)
@@ -35,7 +35,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 - [Visão Geral](#-índice)
 ---
 
-## Documents References
+## 🗃️ Documents References
 
 Para consultas e referências, considere observar a documentação original como nas seções abaixo:
 
