@@ -36,7 +36,12 @@ public class FilterTaskAuth extends OncePerRequestFilter {
         String username = credentials[0];
         String password = credentials[1];
 
-        System.out.println("Chegou no doFilter com os seguintes dados: \nauth => " + authorization + " \nauthEncoded => " + authEncoded + " \nauthDecode => " + authDecode + " \nauthString => " + authString + " \ncredentials[0] => " + credentials[0] + " \ncredentials[1] => " + credentials[1]);
+        System.out.println("Chegou no doFilter com os seguintes dados: \nauth => " 
+        + authorization + " \nauthEncoded => " + authEncoded + " \nauthDecode => " 
+        + authDecode + " \nauthString => " + authString + " \ncredentials[0] => " 
+        + credentials[0] + " \nusername => " + username + " \ncredentials[1] => "
+        + credentials[1] + " \npassword => " + password);
+
         filterChain.doFilter(request, response);
 
         System.out.println("Pode ou não seguir o caminho feliz...");
