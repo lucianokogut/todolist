@@ -25,7 +25,7 @@ public class FilterTaskAuth extends OncePerRequestFilter {
             throws ServletException, IOException {
 
         var servletPath = request.getServletPath();
-        if (servletPath.equals("/tasks/")) {
+        if (servletPath.startsWith("/tasks/")) {
 
             // Executar alguma ação antes de "bater no Controller"
             System.out.println("Iniciando o Filter para autorização! \n");
