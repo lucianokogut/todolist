@@ -29,7 +29,7 @@ public class HealthCheckController {
         healthMap.put("resource", "apiToDoList");
         healthMap.put("status", "UP");
         healthMap.put("statusCode", HttpStatus.OK);
-        System.out.println("Request de Status solicitado...");
+        System.out.println("Request de Status do Health Check solicitado...");
         return healthMap;
     }
 
