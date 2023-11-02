@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.com.lucianokogut.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
@@ -64,12 +65,13 @@ public class TaskController {
     public TaskModel update(@RequestBody TaskModel taskModel, HttpServletRequest request, @PathVariable UUID id) {
 
         var idUser = request.getAttribute("idUser");
-        taskModel.setIdUser((UUID) idUser);
-        taskModel.setId((UUID) id);
-        var task = this.taskRepository.save(taskModel);
-        //return ResponseEntity.status(HttpStatus.OK)
-        //        .body("A tarefa " + task + " \n foi inserida com sucesso!");
-        return task;
+
+        var task = this.taskRepository.findById(id).orElse(null);
+
+        Utils.copyNonNullProperties(taskModel, task);
+
+        System.out.println("A tarefa " + task + " \n do usuário " + idUser + " foi alterada com sucesso!");
+        return this.taskRepository.save(task);
     }
 
 }
