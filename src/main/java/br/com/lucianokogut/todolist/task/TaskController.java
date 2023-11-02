@@ -50,7 +50,7 @@ public class TaskController {
          */
         if (taskModel.getStartAt().isAfter(taskModel.getEndAt())) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                    .body("A tarefa \n" + task.getId() + " com início em " + task.getStartAt() + " e término em "
+                    .body("A tarefa " + task.getId() + " com início em " + task.getStartAt() + " e término em "
                             + task.getEndAt() + " \n deve ter a data de início menor do que a data de término!");
         }
 
