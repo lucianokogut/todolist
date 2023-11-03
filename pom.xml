@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.lucianokogut</groupId>
-	<artifactId>todolist</artifactId>
+	<artifactId>todo-list</artifactId>
 	<version>1.0.0</version>
-	<name>todolist</name>
+	<name>todo-list</name>
 	<description>Back-end do Gerenciador de Tarefas</description>
 	<properties>
 		<java.version>17</java.version>
