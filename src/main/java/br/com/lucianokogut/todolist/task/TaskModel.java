@@ -46,6 +46,13 @@ public class TaskModel {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
+    public void setDescription(String description) throws Exception {
+        if(description.length() > 255) {
+            throw new Exception("O campo description deve conter até 255 caracteres");
+        }
+        this.description = description;
+    }
+
     public void setTitle(String title) throws Exception {
         if(title.length() > 60) {
             throw new Exception("O campo title deve conter até 60 caracteres");
