@@ -85,10 +85,10 @@ public class TaskController {
         Utils.copyNonNullProperties(taskModel, task);
 
         var taskUpdated = this.taskRepository.save(task);
-        System.out.println("A tarefa \n" + taskUpdated + " \n do usuário " + idUser + " foi alterada de forma correta!");
+        System.out.println("A tarefa \n" + taskUpdated + " \n do usuário " + idUser + " foi alterada corretamente!");
 
         return ResponseEntity.status(HttpStatus.OK)
-                .body("A tarefa \n" + taskUpdated + " \n do usuário " + idUser + " foi alterada de forma correta!");
+                .body("A tarefa \n" + taskUpdated + " \n do usuário " + idUser + " foi alterada corretamente!");
 
     }
 
