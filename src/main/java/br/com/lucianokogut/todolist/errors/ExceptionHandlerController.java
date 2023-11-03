@@ -11,7 +11,8 @@ public class ExceptionHandlerController {
     
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<String> handleHttpMessageNotReadableException(HttpMessageNotReadableException e) {
+        System.out.println("Registro de Exception Error [HttpMessageNotReadable]: " + e);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                .body(e.getMostSpecificCause().getMessage());
+                .body("Registro de Exception Error [HttpMessageNotReadable]: \n" + e.getMostSpecificCause().getMessage());
     }
 }
