@@ -33,14 +33,19 @@ public class UserModel {
      * @Data, @Getter e @Setter
      */
 
-    public void setAllFields(String username, String name, String password) throws Exception {
-        if (username.length() > 255 || name.length() > 255 || password.length() > 255) {
-            throw new Exception("Os campos do tipo String devem conter até 255 caracteres");
+    public void setUsername(String username) throws Exception {
+        if (username.length() > 255) {
+            throw new Exception("O campo username deve conter até 255 caracteres");
         }
         this.username = username;
-        this.name = name;
-        this.password = password;
 
+    }
+
+    public void setName(String name) throws Exception {
+        if (name.length() > 255) {
+            throw new Exception("O campo name deve conter até 255 caracteres");
+        }
+        this.name = name;
     }
 
 }
