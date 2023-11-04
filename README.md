@@ -33,7 +33,11 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 * Hierarquia de Package
 * H2 Console Application
 
-![Web Browser <- H2 Console Server -> H2 Database](image.png)
+|--------|--------------------------------------|
+|![java-logo-icon.png](assets/java-logo-icon.png =300x) | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação.|
+|![img-h2-console.png](assets/img-h2-console.png =200x) | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser.|
+
+
 
 - [Visão Geral](#-índice)
 ---
