@@ -34,10 +34,11 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 * H2 Console Application
 
 |--------|--------------------------------------|
+| Texte  | Testo |
+
 |![java-logo-icon.png](assets/java-logo-icon.png =300x) | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação.|
+
 |![img-h2-console.png](assets/img-h2-console.png =200x) | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser.|
-
-
 
 - [Visão Geral](#-índice)
 ---
