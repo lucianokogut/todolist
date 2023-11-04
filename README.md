@@ -37,7 +37,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 |LOGO            |STACK                          |FUNÇÃO                       |
 |----------------|-------------------------------|-----------------------------|
-|![Java 17](assets/java-logo-icon.png)| Java 17 |Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
+|![Java 17](assets/java-logo-icon.png=100px)| Java 17 |Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
 |Apache Maven    |`"Isn't this fun?"`            |"Isn't this fun?"            |
 |Tomcat Server Web Embedded |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 | H2 Console Application |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
