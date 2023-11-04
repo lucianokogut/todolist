@@ -31,6 +31,9 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
     * Tomcat Server Web Embedded
 * Spring Boot for Maven
 * Hierarquia de Package
+* H2 Console Application
+
+![Web Browser <- H2 Console Server -> H2 Database](image.png)
 
 - [Visão Geral](#-índice)
 ---
