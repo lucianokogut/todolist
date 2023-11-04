@@ -6,6 +6,7 @@ A proposta deste projeto simplificado é desenvolver um gerenciador com a lista 
 
 - [Visão Geral](#-índice)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Hierarquia de Pacotes](#hierarquia-de-pacotes)
 - [Documentação de Referência](#documents-references)
 - [Guias de Consulta](#-guias-de-consulta)
 - [Padrões de Commit](#-padrões-de-commit)
@@ -30,26 +31,51 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 * Apache Maven
     * Tomcat Server Web Embedded
 * Spring Boot for Maven
-* Hierarquia de Package
 * H2 Console Application
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|LOGO            |STACK                          |FUNÇÃO                       |
-|----------------|-------------------------------|-----------------------------|
-|![Java 17](assets/java-logo-icon.png=100px)| Java 17 |Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
-|Apache Maven    |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Tomcat Server Web Embedded |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-| H2 Console Application |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+* Hierarquia de Packages
 
 
+|LOGO           |STACK                              |FUNÇÃO                       |
+|---------------|-----------------------------------|-----------------------------|
+| ![Java 17](assets/java-logo-icon.png) | `Java 17` | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
+| ![Apache Maven](assets/apache-maven-icon.png) | `Apache Maven` | Ferramenta de gerenciamento para o build de código-fonte (construção dos artefatos para sua execução), pois padroniza o gerenciamento de dependências, execução dos testes, build e deploy da aplicação |
+| ![Apache Tomcat](assets/apache-tomcat-icon.png) | `Tomcat Server Web Embedded` | Servidor de aplicação Java Web com recurso Embed Tomcat para se trabalhar com o Tomcat de forma embutida no artefato todo-list.jar |
+| ![Spring Boot](assets/spring-boot-icon.png)    | `Spring Boot for Maven` | Ferramenta que gerencia as classes, os pacotes, as camadas, os endpoints da aplicação, as regras de acesso a dados, bem como automatiza todo o processo de compilação de forma conjunta com o Maven |
+| ![H2 Console](assets/img-h2-console.png) | `H2 Console` | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser |
+| ![Package Hierarchy](assets/img-hierarquia.png)  | `Hierarquia de Pacotes` | Organização dos diretórios (pastas do projeto) dentro de responsabilidades específicas para cada uma das entidades implementadas |
 
-|--------|--------------------------------------|
-| Texte  | Testo |
+- [Visão Geral](#-índice)
+---
 
-|![java-logo-icon.png](assets/java-logo-icon.png =300x) | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação.|
+## Hierarquia de Pacotes
 
-|![img-h2-console.png](assets/img-h2-console.png =200x) | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser.|
+Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hierárquica de diretórios, geralmente agrupadas em pacotes comuns entre si, com o propósito de facilitar a reutilização de código
+.
+└── TODOLIST/
+    ├── assets
+    ├── src/
+    │   ├── main/
+    │   │   └── java/br/com/lucianokogut/
+    │   │       ├── todolist/
+    │   │       │   ├── controller
+    │   │       │   ├── errors
+    │   │       │   ├── filter
+    │   │       │   ├── task
+    │   │       │   ├── user
+    │   │       │   ├── utils
+    │   │       │   ├── HealthCheckController.java
+    │   │       │   └── TodolistApplication.java
+    │   │       └── resources/
+    │   │           └── application.properties
+    │   └── test
+    ├── target/
+    │   ├── classes/
+    │   │   └── application.properties
+    │   ├── test-classes
+    │   └── todo-list-1.0.0.jar
+    ├── Dockerfile
+    ├── pom.xml
+    └── README.md
 
 - [Visão Geral](#-índice)
 ---
