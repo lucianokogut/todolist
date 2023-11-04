@@ -35,11 +35,11 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|                |ASCII                          |HTML                         |
+|STACK           |LOGO                           |FUNÇÃO                       |
 |----------------|-------------------------------|-----------------------------|
-|Java 17         |`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Java 17         | ![Java 17](assets/java-logo-icon.png) |Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
 |Apache Maven    |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Tomcat Server Web Embedded Dashes |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|Tomcat Server Web Embedded |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 | H2 Console Application |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
