@@ -32,16 +32,18 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
     * Tomcat Server Web Embedded
 * Spring Boot for Maven
 * H2 Console Application
+* Lombok Data
 * Hierarquia de Packages
 
 
 |LOGO           |STACK                              |FUNÇÃO                       |
 |---------------|-----------------------------------|-----------------------------|
 | ![Java 17](assets/java-logo-icon.png) | `Java 17` | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
-| ![Apache Maven](assets/apache-maven-icon.png) | `Apache Maven` | Ferramenta de gerenciamento para o build de código-fonte (construção dos artefatos para sua execução), pois padroniza o gerenciamento de dependências, execução dos testes, build e deploy da aplicação |
-| ![Apache Tomcat](assets/apache-tomcat-icon.png) | `Tomcat Server Web Embedded` | Servidor de aplicação Java Web com recurso Embed Tomcat para se trabalhar com o Tomcat de forma embutida no artefato todo-list.jar |
-| ![Spring Boot](assets/spring-boot-icon.png)    | `Spring Boot for Maven` | Ferramenta que gerencia as classes, os pacotes, as camadas, os endpoints da aplicação, as regras de acesso a dados, bem como automatiza todo o processo de compilação de forma conjunta com o Maven |
-| ![H2 Console](assets/img-h2-console.png) | `H2 Console` | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser |
+| ![Apache Maven](assets/apache-maven-icon.png) | `Apache Maven 4.0` | Ferramenta de gerenciamento para o build de código-fonte (construção dos artefatos para sua execução), pois padroniza o gerenciamento de dependências, execução dos testes, build e deploy da aplicação |
+| ![Apache Tomcat](assets/apache-tomcat-icon.png) | `Tomcat Server Web Embedded 10.1.15` | Servidor de aplicação Java Web com recurso Embed do Catalina Core para trabalhar com o Tomcat de forma embutida no artefato todo-list.jar |
+| ![Spring Boot](assets/spring-boot-icon.png)    | `Spring Boot for Maven 3.1.5` | Ferramenta que gerencia as classes, os pacotes, as camadas, os endpoints da aplicação, as regras de acesso a dados, bem como automatiza todo o processo de compilação de forma conjunta com o Maven |
+| ![H2 Console](assets/img-h2-console.png) | `H2 Console 2.1.214` | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser |
+| ![Project Lombok](assets/img-lombok-project.png) | `Lombok Data Annotations` | Projeto responsável pela implementação de bibliotecas que diminuem o código padrão Java (*boilerplate code*) e deixam o código mais limpo |
 | ![Package Hierarchy](assets/img-hierarquia.png)  | `Hierarquia de Pacotes` | Organização dos diretórios (pastas do projeto) dentro de responsabilidades específicas para cada uma das entidades implementadas |
 
 - [Visão Geral](#-índice)
@@ -49,7 +51,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 
 ## Hierarquia de Pacotes
 
-Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hierárquica de diretórios, geralmente agrupadas em pacotes comuns entre si, com o propósito de facilitar a reutilização de código
+Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hierárquica de diretórios, geralmente agrupadas em pacotes comuns entre si, com o propósito de facilitar a reutilização de código.
 .
 └── TODOLIST/
     ├── assets
@@ -77,6 +79,8 @@ Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hier�
     ├── pom.xml
     └── README.md
 
+Fonte: https://tree.nathanfriend.io/?s=(%27optKs!(%27fancy7~fullPath!false~trailingSlash7~rootDot7)~5!(%275!%27TODOLIST2assets2src8main8*G%2Fbr%2Fcom%2FlucianokogutNtV3c93Frors3filtF3task3usF3utils3HealthCheckC9.G3TVA6GNre5s34tUt2target8-%20B*4-%20tUt-Btodo-J-1.0.0.jar2DockFfile2pom.xml2README.mdQ%27)~vFsK!%271%27)*%20%202Q*3N*4a6propFtiU85source6pplicatK.7!true82*9ontrollFBclassU8FerGjavaJlistKionN8**Q%5CnUesVodoJ%01VUQNKJGFB98765432*
+
 - [Visão Geral](#-índice)
 ---
 
@@ -88,6 +92,7 @@ Para consultas e referências, considere observar a documentação original como
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.4/maven-plugin/reference/html/)
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.4/maven-plugin/reference/html/#build-image)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.4/reference/htmlsingle/index.html#web)
+* [Mermaid UML Diagrams]()
 
 - [Visão Geral](#-índice)
 ---
@@ -162,6 +167,40 @@ Estas desvantagens podem ser contornadas com o uso de bibliotecas como [Redux](h
 
 - [Visão Geral](#-índice)
 ---
+
+## Exemplos de Diagramas UML
+
+Caso você prefira documentar a sua aplicação por representações de diferentes Diagramas UML, recomenda-se a utilização do [Mermaid](https://mermaidjs.github.io/) ou do [Draw.io](https://app.diagrams.net/) de forma incorporada no seu próprio README.md.
+
+Os exemplos abaixo demonstram a sua utilização:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+
+`draw.io`
+https://drive.google.com/file/d/1VgIRCUJq-cqRnCTDKFZUPbg-lSyN0Rut/view?usp=sharing
+
+`Draw.io incorporado`
+<iframe src="https://drive.google.com/file/d/1VgIRCUJq-cqRnCTDKFZUPbg-lSyN0Rut/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## 🥱 Pré-requisitos
 
