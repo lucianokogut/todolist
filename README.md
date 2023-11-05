@@ -52,6 +52,8 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 ## Hierarquia de Pacotes
 
 Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hierárquica de diretórios, geralmente agrupadas em pacotes comuns entre si, com o propósito de facilitar a reutilização de código.
+
+```shell
 .
 └── TODOLIST/
     ├── assets
@@ -78,6 +80,7 @@ Conceito relacionado ao conjunto de classes localizadas na mesma estrutura hier�
     ├── Dockerfile
     ├── pom.xml
     └── README.md
+```
 
 Fonte: https://tree.nathanfriend.io/?s=(%27optKs!(%27fancy7~fullPath!false~trailingSlash7~rootDot7)~5!(%275!%27TODOLIST2assets2src8main8*G%2Fbr%2Fcom%2FlucianokogutNtV3c93Frors3filtF3task3usF3utils3HealthCheckC9.G3TVA6GNre5s34tUt2target8-%20B*4-%20tUt-Btodo-J-1.0.0.jar2DockFfile2pom.xml2README.mdQ%27)~vFsK!%271%27)*%20%202Q*3N*4a6propFtiU85source6pplicatK.7!true82*9ontrollFBclassU8FerGjavaJlistKionN8**Q%5CnUesVodoJ%01VUQNKJGFB98765432*
 
