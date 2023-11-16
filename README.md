@@ -39,7 +39,7 @@ Este projeto foi desenvolvido com base no Minicurso Java disponibilizado pela Ro
 |LOGO           |STACK                              |FUNÇÃO                       |
 |---------------|-----------------------------------|-----------------------------|
 | ![Java 17](assets/java-logo-icon.png) | `Java 17` | Linguagem de programação escolhida para o desenvolvimento do Back-end da aplicação |
-| ![Apache Maven](assets/apache-maven-icon.png) | `Apache Maven 4.0` | Ferramenta de gerenciamento para o build de código-fonte (construção dos artefatos para sua execução), pois padroniza o gerenciamento de dependências, execução dos testes, build e deploy da aplicação |
+| ![Apache Maven](assets/apache-maven-icon.png) | `Apache Maven 3.6.0` | Ferramenta de gerenciamento para o build de código-fonte (construção dos artefatos para sua execução), pois padroniza o gerenciamento de dependências, execução dos testes, build e deploy da aplicação |
 | ![Apache Tomcat](assets/apache-tomcat-icon.png) | `Tomcat Server Web Embedded 10.1.15` | Servidor de aplicação Java Web com recurso Embed do Catalina Core para trabalhar com o Tomcat de forma embutida no artefato todo-list.jar |
 | ![Spring Boot](assets/spring-boot-icon.png)    | `Spring Boot for Maven 3.1.5` | Ferramenta que gerencia as classes, os pacotes, as camadas, os endpoints da aplicação, as regras de acesso a dados, bem como automatiza todo o processo de compilação de forma conjunta com o Maven |
 | ![H2 Console](assets/img-h2-console.png) | `H2 Console 2.1.214` | Aplicação embutida com o Spring Boot que mantém um Banco de Dados em memória, juntamente com o Tomcat Server o qual permite o acesso via Web Browser |
